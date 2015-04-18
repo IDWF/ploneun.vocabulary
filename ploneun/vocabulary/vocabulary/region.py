@@ -13,6 +13,7 @@ class UNGeographicalRegion(grok.GlobalUtility):
     grok.name('ploneun.vocabulary.region')
     grok.implements(IVocabularyFactory)
 
+    # note 419a code for Latin America is just customization for IDWF
     _terms = [
         {
         'value': '002',
@@ -26,6 +27,10 @@ class UNGeographicalRegion(grok.GlobalUtility):
         'value': '419',
         'title': 'Latin America and the Caribbean',
         },
+        }
+        'value': '419a',
+        'title': 'Latin America',
+        }
         {
         'value': '021',
         'title': 'Northern America',
