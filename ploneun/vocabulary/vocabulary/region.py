@@ -27,10 +27,10 @@ class UNGeographicalRegion(grok.GlobalUtility):
         'value': '419',
         'title': 'Latin America and the Caribbean',
         },
-        }
+        {
         'value': '419a',
         'title': 'Latin America',
-        }
+        },
         {
         'value': '021',
         'title': 'Northern America',
